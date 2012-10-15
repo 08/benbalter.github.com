@@ -3,7 +3,7 @@ define (require) ->
     $           = require 'jquery'
     _           = require 'underscore'
     Backbone    = require 'backbone'
-    require 'assets/js/models/post.js'
+    require 'models/post'
     ->
 
     class Posts extends Backbone.Collection

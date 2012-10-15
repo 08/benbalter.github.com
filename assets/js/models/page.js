@@ -8,7 +8,7 @@
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
-    require('assets/js/views/page.js');
+    require('views/page');
     (function() {});
     return Page = (function(_super) {
 

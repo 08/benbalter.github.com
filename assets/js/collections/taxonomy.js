@@ -8,7 +8,7 @@
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
-    require('assets/js/models/term.js');
+    require('models/term');
     (function() {});
     return Terms = (function(_super) {
 

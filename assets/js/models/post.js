@@ -8,7 +8,7 @@
     $ = require('jquery');
     _ = require('underscore');
     Backbone = require('backbone');
-    require('assets/js/views/post.js');
+    require('views/post');
     (function() {});
     return Post = (function(_super) {
 
