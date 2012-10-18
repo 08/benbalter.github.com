@@ -6,5 +6,5 @@ define (require) ->
     require 'views/term'
     ->
 
-    class Term extends Backbone.Model
+    class window.Term extends Backbone.Model
     

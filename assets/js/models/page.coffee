@@ -6,5 +6,7 @@ define (require) ->
     require 'views/page'
     ->
 
-    class Page extends Backbone.Model
+    class window.Page extends Backbone.Model
+        url: ->
+            @id.replace(new RegExp( '/$'), '.json')
     

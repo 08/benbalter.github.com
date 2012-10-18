@@ -16,7 +16,8 @@ define (require) ->
 
 
 
-        home: ->
+        home: -> 
+            console.log 'foo'
 
         initialize: ->
 

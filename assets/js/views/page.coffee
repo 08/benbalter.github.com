@@ -5,5 +5,5 @@ define (require) ->
     Backbone    = require 'backbone'
     ->
 
-    class PageView extends Backbone.View
+    class window.PageView extends Backbone.View
     

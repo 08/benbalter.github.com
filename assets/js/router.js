@@ -21,7 +21,9 @@
         "": "home"
       };
 
-      Router.prototype.home = function() {};
+      Router.prototype.home = function() {
+        return console.log('foo');
+      };
 
       Router.prototype.initialize = function() {
         var enablePushState, pushState;

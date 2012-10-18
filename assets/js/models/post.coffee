@@ -6,5 +6,5 @@ define (require) ->
     require 'views/post'
     ->
 
-    class Post extends Backbone.Model
+    class window.Post extends Backbone.Model
     

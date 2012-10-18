@@ -5,5 +5,5 @@ define (require) ->
     Backbone    = require 'backbone'
     ->
 
-    class PostView extends Backbone.View
+    class window.PostView extends Backbone.View
     

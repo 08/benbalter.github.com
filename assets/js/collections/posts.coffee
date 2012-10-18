@@ -6,6 +6,6 @@ define (require) ->
     require 'models/post'
     ->
 
-    class Posts extends Backbone.Collection
+    class window.Posts extends Backbone.Collection
     
-      model: Post
+      model: window.Post

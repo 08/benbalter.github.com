@@ -6,6 +6,6 @@ define (require) ->
     require 'models/term'
     ->
 
-    class Terms extends Backbone.Collection
+    class window.Terms extends Backbone.Collection
     
-      model: Term
+      model: window.Term

@@ -6,6 +6,6 @@ define (require) ->
     require 'models/page'
     ->
 
-    class Page extends Backbone.Collection
+    class window.Page extends Backbone.Collection
     
-      model: Page
+      model: window.Page
