@@ -5,8 +5,26 @@
       
      </div><!--/.fluid-container-->
 </div><!-- wrap -->
+<script>window.siteUrl = "{{ site.url }}/";</script>
+<script type="text/template" id="page_template">
 
-<script data-main="{{ site.url }}/assets/js/app" src="{{ site.url }}/assets/js/libs/require.js"></script>
+<div class="content" id="content">
+	<div class="row-fluid">
+		<div class="span2">&nbsp;</div>
+		<div class="span8">
+
+    <h2><%= title %></h2>
+    <%= content %>
+
+		</div>
+	</div>
+</div>
+
+</script>
+<script src="{{ site.url }}/assets/js/libs/jquery.js"></script>
+<script src="{{ site.url }}/assets/js/libs/underscore.js"></script>
+<script src="{{ site.url }}/assets/js/libs/backbone.js"></script>
+<script src="{{ site.url }}/assets/js/app.js"></script>
 {% include analytics.html %}
 </body>
 </html>
